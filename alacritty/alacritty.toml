@@ -1,0 +1,42 @@
+[general]
+import = [
+"~/.config/alacritty/themes/github_dark_tritanopia.toml",
+]
+live_config_reload = true
+[env]
+TERM = "xterm-256color"
+
+[window]
+opacity = 0.80
+blur = false
+decorations = "Full"
+startup_mode = "Windowed"
+dynamic_padding=true
+title = "Alacritty"
+dynamic_title = true
+resize_increments=true
+option_as_alt = "OnlyRight"
+
+[font]
+normal={ family = "SFMono Nerd Font", style = "Light" }
+size=11
+
+[bell]
+animation = "Ease"
+duration = 200
+color = "#34206b"
+command = { program = "osascript", args = ["-e", "beep"] }
+
+[selection]
+save_to_clipboard = true
+
+[cursor]
+style.shape = "Block"
+thickness = 0.35
+style.blinking = "Off"
+blink_interval = 460
+
+[keyboard]
+bindings = [
+{ key = "N", mods = "Control|Shift", action = "CreateNewWindow" },
+]
