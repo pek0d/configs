@@ -1,8 +1,9 @@
 [general]
 import = [
-"~/.config/alacritty/themes/enfocado_dark.toml",
+"~/.config/alacritty/themes/ayu_dark.toml",
 ]
 live_config_reload = true
+
 [env]
 TERM = "xterm-256color"
 
@@ -19,7 +20,7 @@ option_as_alt = "OnlyRight"
 
 [font]
 normal = { family = "Iosevka Nerd Font Mono", style = "Light" }
-size= 13.20
+size= 13.15
 
 [bell]
 animation = "Ease"
