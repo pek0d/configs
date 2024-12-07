@@ -1,25 +1,25 @@
 [general]
 import = [
-"~/.config/alacritty/themes/github_dark_tritanopia.toml",
+"~/.config/alacritty/themes/enfocado_dark.toml",
 ]
 live_config_reload = true
 [env]
 TERM = "xterm-256color"
 
 [window]
-opacity = 0.80
+opacity = 0.89
 blur = false
 decorations = "Full"
 startup_mode = "Windowed"
 dynamic_padding=true
 title = "Alacritty"
-dynamic_title = true
-resize_increments=true
+dynamic_title = false
+resize_increments = true
 option_as_alt = "OnlyRight"
 
 [font]
-normal={ family = "SFMono Nerd Font", style = "Light" }
-size=11
+normal = { family = "Iosevka Nerd Font Mono", style = "Light" }
+size= 13.20
 
 [bell]
 animation = "Ease"
