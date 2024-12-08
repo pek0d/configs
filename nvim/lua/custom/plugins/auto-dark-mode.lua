@@ -3,10 +3,10 @@ return {
 	opts = {
 		update_interval = 1000,
 		set_dark_mode = function()
-			vim.cmd("colorscheme minischeme")
+			vim.cmd("colorscheme vscode")
 		end,
 		set_light_mode = function()
-			vim.cmd("colorscheme onedark")
+			vim.cmd("colorscheme vscode")
 		end,
 	},
 }
