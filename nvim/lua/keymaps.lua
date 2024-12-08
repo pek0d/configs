@@ -35,7 +35,6 @@ vim.keymap.set("n", "<leader>e", vim.diagnostic.open_float, { desc = "Open float
 vim.keymap.set("n", "<leader>q", vim.diagnostic.setloclist, { desc = "Open diagnostics list" })
 
 -- Custom keymaps
-vim.keymap.set("n", "<leader>E", ":Neotree float toggle=true<CR>", { desc = "Open Neo-tree" })
 vim.keymap.set("n", "<space>bd", "<cmd>bd<CR>", { desc = "Close buffer" })
 vim.keymap.set("n", "<S-Tab>", "<cmd>bn<CR>", { desc = "Switch between tabs (buffers)" })
 vim.keymap.set("n", "<leader>X", ":%!xmllint --format --encode UTF-8 -<CR>", { desc = "XML format" })

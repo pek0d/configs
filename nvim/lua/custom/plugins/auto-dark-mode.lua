@@ -3,10 +3,10 @@ return {
 	opts = {
 		update_interval = 1000,
 		set_dark_mode = function()
-			vim.cmd("colorscheme vscode")
+			vim.cmd(":lua require('vscode').load('dark')")
 		end,
 		set_light_mode = function()
-			vim.cmd("colorscheme vscode")
+			vim.cmd(":lua require('vscode').load('light')")
 		end,
 	},
 }

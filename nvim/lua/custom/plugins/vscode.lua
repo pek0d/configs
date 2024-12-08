@@ -23,7 +23,7 @@ return {
 
 			-- Override colors (see ./lua/vscode/colors.lua)
 			color_overrides = {
-				vscLineNumber = "#FFFFFF",
+				vscLineNumber = "#8787ff",
 			},
 
 			-- Override highlight groups (see ./lua/vscode/theme.lua)
@@ -33,7 +33,7 @@ return {
 				Cursor = { fg = c.vscDarkBlue, bg = c.vscLightGreen, bold = true },
 			},
 		})
-		-- require('vscode').load()
+		require("vscode").load()
 
 		-- load the theme without affecting devicon colors.
 		vim.cmd.colorscheme("vscode")
