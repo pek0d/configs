@@ -10,14 +10,11 @@ blur = false
 decorations = "Full"
 startup_mode = "Windowed"
 dynamic_padding = false
-# title = "Alacritty"
-dynamic_title = true
+dynamic_title = false
 resize_increments = true
 option_as_alt = "OnlyRight"
 
 [font]
-# normal = { family = 'CommitMono Nerd Font Mono', style = 'Regular' }
-# normal = { family = 'GeistMono Nerd Font Mono', style = 'Light' }
 normal = { family = 'Hack Nerd Font Mono', style = 'Regular' }
 size = 12.25
 
