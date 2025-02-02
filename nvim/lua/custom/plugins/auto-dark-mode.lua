@@ -1,15 +1,8 @@
 return {
 	"f-person/auto-dark-mode.nvim",
 	opts = {
-		update_interval = 1000,
-		set_dark_mode = function()
-			vim.cmd(":lua require('vscode').load('dark')")
-		end,
-		set_light_mode = function()
-			vim.cmd(":lua require('vscode').load('light')")
-		end,
+		-- your configuration comes here
+		-- or leave it empty to use the default settings
+		-- refer to the configuration section below
 	},
 }
-
--- The line beneath this is called `modeline`. See `:help modeline`
--- vim: ts=2 sts=2 sw=2 et
