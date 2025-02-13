@@ -9,6 +9,7 @@ return {
 	cmd = "Neotree",
 	keys = { { "\\", ":Neotree toggle<CR>", desc = "Toggle NeoTree", silent = true } },
 	opts = {
+		show_separators_on_edge = false,
 		filesystem = {
 			filtered_items = {
 				hide_dotfiles = false,
@@ -18,4 +19,3 @@ return {
 		},
 	},
 }
-

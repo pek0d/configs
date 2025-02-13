@@ -1,0 +1,30 @@
+[general]
+live_config_reload = true
+
+[window]
+opacity = 0.89
+blur = false
+decorations = "Full"
+startup_mode = "Windowed"
+dynamic_padding = false
+dynamic_title = false
+resize_increments = true
+option_as_alt = "OnlyRight"
+
+[font]
+normal = { family = 'RobotoMono Nerd Font Mono', style = 'Regular' }
+size = 12.25
+
+[bell]
+animation = "Ease"
+duration = 200
+color = "#34206b"
+command = { program = "osascript", args = ["-e", "beep"] }
+
+[selection]
+save_to_clipboard = true
+
+[keyboard]
+bindings = [
+{ key = "N", mods = "Control|Shift", action = "CreateNewWindow" },
+]
