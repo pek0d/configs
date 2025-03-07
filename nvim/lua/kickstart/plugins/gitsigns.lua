@@ -43,7 +43,7 @@ return {
 				map("n", "<leader>hs", gitsigns.stage_hunk, "Git [s]tage hunk")
 				map("n", "<leader>hr", gitsigns.reset_hunk, "Git [r]eset hunk")
 				map("n", "<leader>hS", gitsigns.stage_buffer, "Git [S]tage buffer")
-				map("n", "<leader>hu", gitsigns.undo_stage_hunk, "Git [u]ndo stage hunk")
+				map("n", "<leader>hu", gitsigns.stage_hunk, "Git [u]ndo stage hunk")
 				map("n", "<leader>hR", gitsigns.reset_buffer, "Git [R]eset buffer")
 				map("n", "<leader>hp", gitsigns.preview_hunk, "Git [p]review hunk")
 				map("n", "<leader>hb", gitsigns.blame_line, "Git [b]lame line")
@@ -54,7 +54,7 @@ return {
 
 				-- Переключатели
 				map("n", "<leader>tb", gitsigns.toggle_current_line_blame, "[T]oggle git show [b]lame line")
-				map("n", "<leader>tD", gitsigns.toggle_deleted, "[T]oggle git show [D]eleted")
+				map("n", "<leader>tD", gitsigns.preview_hunk_inline, "[T]oggle git show [D]eleted")
 			end,
 		},
 	},

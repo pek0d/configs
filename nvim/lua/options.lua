@@ -61,17 +61,10 @@ vim.opt.inccommand = "split"
 vim.opt.laststatus = 3
 
 -- Show which line your cursor is on
-vim.opt.cursorline = true
+vim.opt.cursorline = false
 
 -- Minimal number of screen lines to keep above and below the cursor.
 vim.opt.scrolloff = 10
-
--- Enable folding
--- vim.o.foldmethod = 'indent'
--- [[PEKOD'S ADDITIONAL CUSTOM SETTINGS]]
-
--- Autoformat for lua after save file
--- vim.cmd [[autocmd BufWritePre * lua vim.lsp.buf.format({ async = false })]]
 
 -- switch to absolute line numbers in insert mode
 vim.api.nvim_create_autocmd({ "InsertEnter" }, {
