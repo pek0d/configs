@@ -1,3 +1,6 @@
 .DS_Store
+mpv/watch_later/*
+github-copilot/
+mc/
 .luarc.json
 lazy-lock.json
