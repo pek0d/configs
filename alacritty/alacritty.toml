@@ -1,0 +1,32 @@
+[general]
+live_config_reload = true
+import = ["~/.config/alacritty/themes/Apple System Colors.toml"]
+
+[window]
+opacity = 0.87
+blur = false
+decorations = "None"
+startup_mode = "Windowed"
+dynamic_padding = true
+dynamic_title = false
+resize_increments = true
+option_as_alt = "OnlyRight"
+
+[font]
+normal = { family = "RobotoMono Nerd Font", style = "Regular" }
+bold = { family = "RobotoMono Nerd Font", style = "Bold" }
+italic = { family = "RobotoMono Nerd Font", style = "Italic" }
+bold_italic = { family = "RobotoMono Nerd Font", style = "Bold Italic" }
+size = 12.25
+
+[bell]
+animation = "Ease"
+duration = 200
+color = "#34206b"
+command = { program = "osascript", args = ["-e", "beep"] }
+
+[selection]
+save_to_clipboard = true
+
+[keyboard]
+bindings = [{ key = "N", mods = "Control|Shift", action = "CreateNewWindow" }]
