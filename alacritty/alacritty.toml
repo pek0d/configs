@@ -5,7 +5,7 @@ import = ["~/.config/alacritty/themes/Apple System Colors.toml"]
 [window]
 opacity = 0.87
 blur = false
-decorations = "None"
+decorations = "Full"
 startup_mode = "Windowed"
 dynamic_padding = true
 dynamic_title = false
@@ -29,4 +29,16 @@ command = { program = "osascript", args = ["-e", "beep"] }
 save_to_clipboard = true
 
 [keyboard]
-bindings = [{ key = "N", mods = "Control|Shift", action = "CreateNewWindow" }]
+bindings = [
+  # Переход вперёд по словам (Option + →)
+  { key = "Right", mods = "Alt", chars = "\u001bf" },
+
+  # Переход назад по словам (Option + ←)
+  { key = "Left", mods = "Alt", chars = "\u001bb" },
+
+  # Удаление слова перед курсором (Option + Backspace)
+  { key = "Backspace", mods = "Alt", chars = "\u001b\u007f" },
+
+  # Создание нового окна (Control + Shift + N)
+  { key = "N", mods = "Control|Shift", action = "CreateNewWindow" },
+]
